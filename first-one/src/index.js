@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Footer.jsx'
+import { Jumbotron } from 'react-bootstrap';
+import Books from './Books.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    < Jumbotron />
+    < Books />
+    <Footer />
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
